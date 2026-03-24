@@ -16,4 +16,6 @@ def time():
     print("minutos completos", minutos_completos)
     print("segundos restantes", segundos_restantes)
 
-time()
+if __name__ == '__main__':
+        time()
+

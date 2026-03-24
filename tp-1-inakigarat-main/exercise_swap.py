@@ -19,6 +19,6 @@ def swap():
     print("El valor original de x despues del intercambio", x)
     print("El valor original de y despues del intercambio", y)
 
-
-swap()
+if __name__ == '__main__':
+        swap()
 

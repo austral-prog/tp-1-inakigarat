@@ -17,5 +17,5 @@ def statistics():
     print("maximo", max(num1, num2, num3, num4))
     print("minimo", min(num1, num2, num3, num4))
     print("rango", num3 - num2 )
-
-statistics()
+if __name__ == '__main__':
+        statistics()

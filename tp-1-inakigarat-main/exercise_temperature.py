@@ -12,5 +12,5 @@ def temperature():
     print("temperatura en Fahrenheit", celsius * 9 / 5 + 32 )
     print("temperatura original en Celsius", 25)
 
-
-temperature()
+if __name__ == '__main__':
+        temperature()

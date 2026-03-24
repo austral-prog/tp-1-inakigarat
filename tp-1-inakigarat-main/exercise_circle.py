@@ -14,6 +14,7 @@ def circle():
     print("area", (pi * (radio**2)))
     print("circunferencia", (2 * pi * radio))
 
-circle()
+if __name__ == '__main__':
+        circle()
 
 
