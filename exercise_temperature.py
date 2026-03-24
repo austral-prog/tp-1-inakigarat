@@ -7,3 +7,10 @@ def temperature():
     2. La temperatura original en Celsius
     """
     celsius = 25
+
+
+    print("temperatura en Fahrenheit", celsius * 9 / 5 + 32 )
+    print("temperatura original en Celsius", 25)
+
+if __name__ == '__main__':
+        temperature()

@@ -10,3 +10,15 @@ def swap():
     """
     x = 10
     y = 20
+
+    print("El valor original de x", x)
+    print("El valor original de y", y)
+
+    x, y = y, x
+
+    print("El valor original de x despues del intercambio", x)
+    print("El valor original de y despues del intercambio", y)
+
+if __name__ == '__main__':
+        swap()
+
