@@ -1,0 +1,18 @@
+def triangle():
+    """
+    Ejercicio 12 - Área de Triángulo
+
+    Dados la base y altura de un triángulo, calcular e imprimir:
+    1. El área del triángulo ((base × altura) / 2)
+    """
+    base = 10
+    altura = 6
+    area_del_triangulo = (base * altura) / 2
+
+    print("area del", area_del_triangulo)
+
+
+if __name__ == '__main__':
+        triangle()
+
+
