@@ -15,8 +15,8 @@ def rectangle():
 
 
 
-if __name__ == '__main__':
-    rectangle()
+
+rectangle()
 
 
 

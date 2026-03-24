@@ -19,6 +19,6 @@ def length():
     print("pies: ", pies)
     print("pulgadas: ", pulgadas)
 
-if __name__ == '__main__':
-        length()
+
+length()
 

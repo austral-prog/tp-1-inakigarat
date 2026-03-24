@@ -12,7 +12,7 @@ def triangle():
     print("area del", area_del_triangulo)
 
 
-if __name__ == '__main__':
-        triangle()
+
+triangle()
 
 

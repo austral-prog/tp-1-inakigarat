@@ -16,5 +16,5 @@ def currency():
     print("monto en euros", pesos/tasa_euro )
     print("monto en reales", pesos/tasa_real )
 
-if __name__ == '__main__':
-        currency()
+
+currency()

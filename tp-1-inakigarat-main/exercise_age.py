@@ -19,6 +19,5 @@ def age():
     print("edad en horas", edad_horas)
     print("edad en minutos", edad_minutos)
 
-if __name__ == '__main__':
-        age()
+age()
 

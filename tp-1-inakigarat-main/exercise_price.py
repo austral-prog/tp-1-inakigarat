@@ -23,8 +23,8 @@ def price():
 
 
 
-if __name__ == '__main__':
-        price()
+
+price()
 
 
 

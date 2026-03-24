@@ -17,5 +17,5 @@ def grades():
     print("la nota minima", min(nota1, nota2, nota3))
     print("cuantos puntos faltan del promedio a 10", 10 - ((nota1 + nota2 + nota3)/3))
 
-if __name__ == '__main__':
-        grades()
+
+grades()

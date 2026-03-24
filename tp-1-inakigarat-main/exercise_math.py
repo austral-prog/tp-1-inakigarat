@@ -22,5 +22,4 @@ def math():
     print("resto", a%b)
     print("valor", a/b)
 
-if __name__ == '__main__':
-    math()
+math()
