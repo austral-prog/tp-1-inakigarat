@@ -16,15 +16,15 @@ def price():
     propina = subtotal * 0.10
     precio_final = subtotal + propina
 
-    print("Impuesto (21%)", impuesto)
-    print("Subtotal", subtotal)
-    print("Propina (10%)", propina)
-    print("Precio final", precio_final)
+    print(impuesto)
+    print(subtotal)
+    print(propina)
+    print(precio_final)
 
 
 
-if __name__ == '__main__':
-        price()
+
+price()
 
 
 

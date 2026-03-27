@@ -13,14 +13,22 @@ def math():
     """
     a = 57
     b = 7
+    suma=a+b
+    diferencia=a-b
+    producto=a*b
+    promedio= (a+b)/2
+    cociente=a//b
+    resto=a%b
+    valor=a/b
 
-    print("suma", a+b)
-    print("diferencia", a-b)
-    print("producto", a*b)
-    print("promedio", (a+b)/2)
-    print("cociente", a//b)
-    print("resto", a%b)
-    print("valor", a/b)
+    print(suma)
+    print(diferencia)
+    print(producto)
+    print(promedio)
+    print(cociente)
+    print(resto)
+    print(valor)
 
-if __name__ == '__main__':
-    math()
+
+
+math()

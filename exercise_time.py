@@ -12,10 +12,10 @@ def time():
     minutos_completos = (total_segundos % 3600) // 60
     segundos_restantes = total_segundos % 60
 
-    print("horas completas", horas_completas)
-    print("minutos completos", minutos_completos)
-    print("segundos restantes", segundos_restantes)
+    print(horas_completas)
+    print(minutos_completos)
+    print(segundos_restantes)
 
-if __name__ == '__main__':
-        time()
+
+time()
 

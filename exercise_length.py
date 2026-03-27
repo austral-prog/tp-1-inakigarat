@@ -14,11 +14,10 @@ def length():
     pies = metros / 0.3048
     pulgadas = metros / 0.0254
 
-    print("kilometros: ", kilometros)
-    print("millas: ", millas)
-    print("pies: ", pies)
-    print("pulgadas: ", pulgadas)
+    print(kilometros)
+    print(millas)
+    print(pies)
+    print(pulgadas)
 
-if __name__ == '__main__':
-        length()
+length()
 

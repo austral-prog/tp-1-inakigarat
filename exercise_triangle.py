@@ -9,10 +9,10 @@ def triangle():
     altura = 6
     area_del_triangulo = (base * altura) / 2
 
-    print("area del", area_del_triangulo)
+    print(area_del_triangulo)
 
 
-if __name__ == '__main__':
-        triangle()
+
+triangle()
 
 
